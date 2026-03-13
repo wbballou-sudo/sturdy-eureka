@@ -27,8 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
-        nelify working-directory: continue-on-error: 
+        run: echo Hello, world 
             - name: Upload a Build Artifact
   uses: actions/upload-artifact@v7.0.0
   with:
